@@ -1,0 +1,92 @@
+$date
+	Mon Feb 19 22:43:15 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_memory $end
+$var wire 64 ! valM [63:0] $end
+$var wire 3 " stat [2:0] $end
+$var wire 1 # mem_write $end
+$var wire 1 $ mem_read $end
+$var wire 64 % mem_data [63:0] $end
+$var wire 64 & mem_addr [63:0] $end
+$var wire 1 ' memoryError $end
+$var reg 1 ( clk $end
+$var reg 4 ) icode [3:0] $end
+$var reg 1 * imem_error $end
+$var reg 1 + instr_valid $end
+$var reg 64 , valA [63:0] $end
+$var reg 64 - valB [63:0] $end
+$var reg 64 . valE [63:0] $end
+$var reg 64 / valP [63:0] $end
+$scope module mystic $end
+$var wire 1 ( clk $end
+$var wire 4 0 icode [3:0] $end
+$var wire 1 * imem_error $end
+$var wire 1 + instr_valid $end
+$var wire 64 1 valA [63:0] $end
+$var wire 64 2 valB [63:0] $end
+$var wire 64 3 valE [63:0] $end
+$var wire 64 4 valP [63:0] $end
+$var reg 1 ' memoryError $end
+$var reg 64 5 mem_addr [63:0] $end
+$var reg 64 6 mem_data [63:0] $end
+$var reg 1 $ mem_read $end
+$var reg 1 # mem_write $end
+$var reg 3 7 stat [2:0] $end
+$var reg 64 8 valM [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+bx .
+bx -
+bx ,
+x+
+x*
+bx )
+0(
+x'
+bx &
+bx %
+x$
+x#
+bx "
+bx !
+$end
+#20
+b11 "
+b11 7
+b1001000110100 &
+b1001000110100 5
+0#
+1$
+1'
+0*
+0+
+b10010 -
+b10010 2
+b1010101111001101 /
+b1010101111001101 4
+b101011001111000 ,
+b101011001111000 1
+b1001000110100 .
+b1001000110100 3
+b101 )
+b101 0
+#30

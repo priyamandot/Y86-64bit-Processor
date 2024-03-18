@@ -1,0 +1,15 @@
+63 //xorq setting zf = 1
+aa
+23 //cmove should happen
+01
+24 //cmovne not happen
+34
+21 //cmovle yes
+78
+26 //cmovg no
+56 
+22 //cmovl no
+ab
+25 //cmovge yes
+bc
+
