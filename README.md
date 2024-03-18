@@ -9,8 +9,7 @@ The project's implementation can be delineated into several key stages:
 3. **Execute**
 4. **Memory and Writeback**
 
-![image](https://github.com/priyamandot/Y86-64bit-Processor/assets/139869341/25270497-8229-4a72-99e2-b09ddbd0fd45)
-
+![image](https://github.com/priyamandot/Y86-64bit-Processor/assets/139869341/aedf6db3-26ed-4d33-99dc-5c818be09a97)
 
 Here's a breakdown of the pipeline's major stages:
 
@@ -37,6 +36,7 @@ In the write-back stage, register updates occur, finalizing instruction executio
 **Pipeline Control Logic**
 
 A robust pipeline control logic is implemented to manage various scenarios, including load/use hazards, processing 'ret' instructions, and handling mispredicted branches. Techniques like bubbling and stalling are utilized judiciously to ensure correct program execution while minimizing performance overhead.
+![image](https://github.com/priyamandot/Y86-64bit-Processor/assets/139869341/bde746e6-4879-45a9-b545-73c5573fbf70)
 
 With careful handling of hazards and efficient pipeline management, we've achieved a fully operational Y86-64bit Processor capable of executing instructions seamlessly.
 (For detailed explanation, please refer to the Report)
